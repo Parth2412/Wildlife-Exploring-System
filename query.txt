@@ -1,0 +1,39 @@
+followers
+
+
+$pid
+
+select *from follow f,user_register u
+where f.user_register_id=u.user_register_id and f.photographer_following_id='$pid'
+
+
+select *from follow f,photographer_register u
+where f.photographer_register_id=u.photographer_register_id and f.photographer_following_id='$pid'
+
+
+$uid
+
+select *from follow f,user_register u
+where f.user_register_id=u.user_register_id and f.user_following_id='$uid'
+
+
+select *from follow f,photographer_register u
+where f.photographer_register_id=u.photographer_register_id and f.user_following_id='$uid'
+
+
+following
+
+$pid
+
+select *from follow f,user_register u
+where f.user_following_id=u.user_register_id and f.photographer_register_id='$pid'
+
+
+	
+
+
+
+
+
+edit profile ma check karavanu 
+

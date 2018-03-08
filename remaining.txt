@@ -1,0 +1,7 @@
+friend list
+chat
+events
+notification
+videos upload 
+photographer cover photo
+edit profile(about me)
